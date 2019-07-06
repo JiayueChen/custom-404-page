@@ -1,0 +1,76 @@
+body {
+	background-color: #e4e2e3;
+	height: 100vh;
+	padding: 2rem;
+	max-width: 1024px;
+	font-family: 'Hind Siliguri', sans-serif;
+}
+
+h1 {
+	font-family: 'DM Serif Display', serif;
+	font-size: 36px;
+}
+h4 {
+	font-size: 32px;
+}
+p,a {
+	font-size: 18px;
+}
+
+body.home {
+	background-image: url("../img/bulb.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+img	{
+	max-width: 100%;
+	height: auto;
+}
+
+a, a:link, a:visited{
+	background-color: #95aab0;
+	padding: 0.75em 1em;
+	display: inline-block;
+	border-radius: 10px;
+	color: #fff;
+	box-shadow: 0 0 10px #bebebe;
+	text-decoration: none;
+}
+
+a:hover, a:active {
+	background-color: #95a;
+	box-shadow: 0 0 10px #bebebe inset;
+}
+
+.page-404 h1 {
+	margin-bottom: 2rem;
+}
+.page-404 p{
+	margin-bottom: 2rem;
+}
+
+.outer {
+	display: flex;
+}
+.box {
+	width: 50%;
+	align-self: center;
+}
+@media screen and (max-width: 767px) {
+	.page-404 .outer {
+		text-align: center;
+	}
+	.outer {
+		flex-direction: column;
+	}
+	h1 {
+		font-size: 34px;
+	}
+	h4 {
+		font-size: 26px;
+	}
+	p,a {
+		font-size: 16px;
+	}
+}
